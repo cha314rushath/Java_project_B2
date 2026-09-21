@@ -46,9 +46,5 @@ public class Data_type {
         String r = "true";
         String w = "1243";
 
-
-
-
-
     }
 }
