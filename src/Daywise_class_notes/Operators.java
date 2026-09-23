@@ -85,9 +85,172 @@ public class Operators {
         System.out.println(a == b); // 5 == 23 ; no false
         System.out.println(a != b); // 5 != 23 ;yes true
 
-        // y = a + b
-        // Var :keywords
-        a = 50;
+        // y = a + a
+        a = 50; // = , += , -=, *= ,/= , %=
+        System.out.println(a);
+
+        a += 5; //a = a + 5 ;a = 50 + 5 ;a = 55
+        System.out.println(a);
+
+        a -= 5;// a = a - 5 ; a = 55 - 5 ; a = 50
+        System.out.println(a);
+
+        a *= 5; //a = a * 5 ; a = 50 * 5 = a = 250
+        System.out.println(a);
+
+        a /= 5;// a = a / 5; a = 250 / 5 = 50
+        System.out.println(a);
+
+        a %= 5;// a = a % 5; a = 50%5 = 0
+        System.out.println(a);
+
+        int num = 250; // 250 / 5 = 50 / 5 ; 25 / 5 ; 5 / 5 ; 1 / 5 ; 0 stop
+
+
+        // &&  || !
+
+        num = 15; // check give num is div by 3 and Div by 5 or not
+
+        boolean is_num_div_3 = num % 3 == 0;
+        boolean is_num_div_5 = num % 5 == 0;
+        boolean is_num_div_with_3_and_5 = is_num_div_3 && is_num_div_5;
+
+        /* case1 :-- num 15
+       is_num_3     num % 3 == 0     is_num_5 num % 5 == 0
+                     15 % 3 == 0     15 % 3 == 0
+                       0 == 0   T   &&   0  == 0 T         final :-- true
+          case 2:-- num 5
+                  num % 3 == 0
+                   5 % 3 == 0                              final :--False
+                    3  == 0   F  &&
+
+          case 3:-- num 9
+               num % 3 == 0         num % 5 ==0
+               9 % 3 == 0            9 % 5 == 0
+                 0 == 0    T     &&   4 == 0  F           final :--False
+          case 4 :-- num = 4
+              num % 3 == 0
+               4 % 3 == 0
+                1 == 0  F   &&                             final  False
+
+
+
+         */
+        System.out.println("num is div by 3 and 5 " + is_num_div_with_3_and_5);
+        System.out.println(num % 3 == 0 && num % 5 == 0);//true
+
+        // ||  : num div 3 or 5
+        num = 9;
+        System.out.println(num % 3 == 0 || num % 5 == 0);
+        /*
+           case:--> num = 9                                 final :-- True
+           num % 3 == 0  ||  num % 5 == 0
+           9 % 3 == 0        9 % 5 == 0
+            0 == 0   T   ||   4  == 0   F
+
+           case num = 10
+             num % 3 == 0       num % 5 == 0
+             10 % 3 == 0         10 % 5 == 0
+               1 == 0   F  ||    0 == 0   T                 final true
+
+            case num 8
+              num % 3 == 0       num % 5 == 0
+                8 % 3 == 0        8% 5 == 0
+                  2 == 0   f       3 == 0  f                   final false
+
+          case num :-- 15
+             num % 3 == 0        15 % 5 == 0
+              15 % 3  == 0        0   == 0  T              final true
+                0  == 0  T
+
+         */
+
+        System.out.println(! true);  // false
+        System.out.println(! false);  // true
+
+
+        System.out.println(num % 3 == 0 && num % 5 == 0 ? "given num is div by 3 and 5" : "given num is not div 3 and 5"); //t/f :--given num is not div 3 and 5
+        // ?:
+        a = 6;
+        b = 7;
+        System.out.println(a > b ? "a > b" : "a < b");
+        // 6 > 7 F ; a < b
+        //a = 9 ,b = 6
+        // 9 > 6 : a > b
+
+
+        System.out.println(a > b ? a ++ : --b);
+
+        System.out.println(45 + "30" + 90);// "4530" + 90 = 453090
+        System.out.println(45 + 30 + "20");//7520
+        System.out.println("30" + 10 + 20);//"3010" + 20 = 301020
+        System.out.println('a' + 1);//a1 // 97 + 1 = 98  (a = )(A)
+        //bitwise :-->  15 min
+        // key word :-- 5min
+        //var :-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
