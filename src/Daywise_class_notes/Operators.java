@@ -186,8 +186,22 @@ public class Operators {
         System.out.println("30" + 10 + 20);//"3010" + 20 = 301020
         System.out.println('a' + 1);//a1 // 97 + 1 = 98  (a = )(A)
         //bitwise :-->  15 min
+         a = 5;
+         b = 3;
+         System.out.println(a & b); //1
+         System.out.println(a | b); // 7
+         System.out.println(a ^ b);//6
+         a = 50;
+         System.out.println(a >> 1); // 25
+         System.out.println(a << 1); // 100 how
+
+         System.out.println(25 >> 2); // 25,12,6
+         System.out.println(25 << 2); // 25 50 100
+
         // key word :-- 5min
         //var :-->
+
+//        System.out.println(25.56 & 2);
 
 
 
