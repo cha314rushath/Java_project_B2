@@ -204,8 +204,13 @@ public class Operators {
 //        System.out.println(25.56 & 2);
 
 
-
-
+//      a = 45;
+//      b = 25;
+      System.out.println(a == b);//true /false
+      String msg =  a == b ? "a == b":"a != b";
+      System.out.println(msg);
+//      a < 0 ? "-ve num" : "+ num";
+//      a > 0 ? "+ve num" : "-ve num"
 
 
 

@@ -1,6 +1,6 @@
 package Daywise_class_notes;
 
-public class Var_types {
+public class Var_types_local{
     static void main(String[] args) {
         /*
             local var :-->
@@ -40,9 +40,9 @@ class vartype_2{
     static int a = 89;
     static void main(String[] args) {
         System.out.println(a);//89
-        System.out.println(b);// 0
+        System.out.println(f);// 0
     }
-    static int b;//
+    static int f;//
     //static var
 }
 
