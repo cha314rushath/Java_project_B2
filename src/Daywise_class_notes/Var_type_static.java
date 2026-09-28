@@ -14,7 +14,6 @@ public class Var_type_static {
     }
     static double b;//
 }
-
 class static_var_exp2{
     static String c = "hello";
     static int d = 89;
