@@ -2,7 +2,6 @@ package Selenium_Classes;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 public class Test_sc {
     static void main(String[] args) {
         String url = "https://mail.google.com/";
@@ -34,8 +33,6 @@ public class Test_sc {
 //        driver.navigate().refresh();
 //        driver.manage().window().minimize();
 //        driver.quit();
-
-
         /*
         WebDriver driver = new ChromeDriver();
         driver.get("https://demowebshop.tricentis.com/cart");
